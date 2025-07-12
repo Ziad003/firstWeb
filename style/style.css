@@ -33,6 +33,9 @@ nav{
 .focus{
     margin: 0 auto;
 }
+.primaryColor{
+    color: rgba(78, 71, 255, 1);
+}
 .primary-button{
     background-color: rgba(78, 71, 255, 1);
     color: white;
@@ -44,6 +47,7 @@ nav{
 .logo{
     color: rgba(78, 71, 255, 1);
     font-weight: 800;
+    font-size: 34px;
 }
 .lightDart{
     color:rgba(37, 36, 50, 0.5);
@@ -64,7 +68,62 @@ main .firstContainer{
 }
 .box{
     background-color: rgba(77, 71, 255, 0.16);
+    padding: 50px 142px;
+    border-radius: 24px;
+    margin-top: 116px;
+    margin-bottom: 137px;
 }
-.secondContainer{
-    margin-top: 100px;
+
+.secondContainer .title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+}
+.secondContainer .users{
+    display: flex;
+    justify-content: space-between;
+}
+
+.users h2{
+    font-size: 80px;
+    font-weight: bold;
+}
+.users h2{
+   margin-bottom: 0px;
+}
+.users{
+    text-align: center;
+}
+.users p{
+    font-size: 20px;
+}
+
+.thirdContainer .title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    
+}
+.thirdContainer .ratings{
+    display: flex;
+    justify-content: space-between;
+    gap: 350px;
+}
+.thirdContainer .subContainer{
+    display: flex;
+    align-items: center;
+    
+}
+.lightDart2{
+    color: rgba(179, 179, 179, 1);
+}
+.subContainer .img{
+    border-radius: 50%;
+}
+.subContainer pre{
+    margin-left: 12px;
+}
+.subContainer .subImage{
+    margin-top: 0px;
+    margin-bottom: 12px;
 }
