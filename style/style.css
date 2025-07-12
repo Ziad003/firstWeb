@@ -45,6 +45,11 @@ nav{
     font-size: 16px;
     border: none;
 }
+button:hover{
+    background-color: rgba(80, 151, 153, 0.459);
+    transform: translate(-2px);
+    cursor: pointer;
+}
 .logo{
     color: rgba(78, 71, 255, 1);
     font-weight: 800;
@@ -146,8 +151,9 @@ main .firstContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(49, 45, 175, 0.158);
+    background-color: rgba(86, 83, 185, 0.123);
     border-radius: 30px;
+    margin-bottom: 14px;
 }
 .form h2{
     font-size: 97px;
@@ -187,5 +193,24 @@ main .firstContainer{
 }
 .form .inputForm .inputBtn{
     width: 98%;
-    height: 7%;
+    height: 8%;
 } 
+.form .inputForm label{
+    font-size: 18px;
+}
+.footerflex{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.footerLogo h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.footerflex a{
+    text-decoration: none;
+}
