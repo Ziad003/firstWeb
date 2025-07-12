@@ -50,6 +50,11 @@ button:hover{
     transform: translate(-2px);
     cursor: pointer;
 }
+.inputBtn:hover{
+    background-color: rgba(80, 151, 153, 0.459);
+    transform: translate(-2px);
+    cursor: pointer;
+}
 .logo{
     color: rgba(78, 71, 255, 1);
     font-weight: 800;
@@ -195,6 +200,8 @@ main .firstContainer{
     width: 98%;
     height: 8%;
 } 
+
+
 .form .inputForm label{
     font-size: 18px;
 }
