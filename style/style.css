@@ -6,6 +6,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+main{
+    max-width: 80%;
+    margin: 0 auto;
+}
 nav .container{
     display: flex;
     justify-content: space-between;
@@ -44,7 +48,23 @@ nav{
 .lightDart{
     color:rgba(37, 36, 50, 0.5);
 }
-main .content .title{
+main .firstContainer .title{
     font-weight: bold;
     font-size: 42px;
+}
+main .firstContainer .subTitle{
+    font-size: 24px;
+}
+main .image img{
+    border-radius: 48px;
+}
+main .firstContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    background-color: rgba(77, 71, 255, 0.16);
+}
+.secondContainer{
+    margin-top: 100px;
 }
