@@ -7,7 +7,7 @@
     "wdth" 100;
 }
 main{
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
 }
 nav .container{
@@ -43,6 +43,7 @@ nav{
     padding: 12px 36px;
     font-weight: 600;
     font-size: 16px;
+    border: none;
 }
 .logo{
     color: rgba(78, 71, 255, 1);
@@ -127,3 +128,64 @@ main .firstContainer{
     margin-top: 0px;
     margin-bottom: 12px;
 }
+.start h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+.start img{
+    border-radius: 48px;
+}
+.start{
+    margin: 137px 0px;
+    text-align: center;
+}
+.form .inputForm input {
+    display: block;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(49, 45, 175, 0.158);
+    border-radius: 30px;
+}
+.form h2{
+    font-size: 97px;
+    font-weight: bold;
+
+}
+.form .heading{
+    padding-left: 150px;
+    width: 528px;
+    
+}
+.form .inputForm{
+    height: 490px;
+    width: 497px;
+    padding: 71px 0px;
+    margin-right: 150px;
+    margin-top: 100px;
+    
+}
+
+.form .inputForm form{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.form .inputForm form .input{
+    width: 96%;
+    height: 15%;
+    border: none;
+    border-radius: 10px;
+}
+.form .inputForm form textarea{
+     width: 96%;
+    height: 30%;
+    border: none;
+    border-radius: 10px;
+}
+.form .inputForm .inputBtn{
+    width: 98%;
+    height: 7%;
+} 
